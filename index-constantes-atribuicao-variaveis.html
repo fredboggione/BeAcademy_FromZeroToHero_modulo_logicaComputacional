@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Dados Pessoais:</h2>
+    <form>
+        Nome do usuário: <input type="text" name="username" id="username" onkeyup="userName()"><br>
+        <small>Digite seu nome.</small><br><br>
+
+        Peso: <input type="number" name="user_weight" id="user_weight"><br>
+        <small>Digite o seu peso em Kg.</small><br><br>
+
+        Altura:<input type="number" name="user_height" id="user_height"><br>
+        <small>Digite sua altura em metros.</small><br><br>
+
+        <button name="button_get_personal_data" type="submit" onclick="imcCalculator()">Salvar dados
+        </button>
+
+
+    </form>
+
+    <h2>Imc</h2>
+    <form>
+
+        Seu IMC é: <input type="number" name="imc_value"id="imc_value">
+    </form>
+    <script src="./constantes-atribuicao-variaveis.js"></script>
+</body>
+</html>
